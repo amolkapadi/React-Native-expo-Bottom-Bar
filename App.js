@@ -20,7 +20,7 @@ export default function App() {
       <NavigationContainer>
         <Tab.Navigator>
           <Tab.Screen
-          name="Home1"
+          name="Home"
           component={Home}
           options={{
             tabBarIcon:({color,size})=>(
